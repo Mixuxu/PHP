@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 769px) {
+#container {
+	max-width:900px;
+	width:85%;
+	padding:1%;
+	margin:auto;
+	border:1px solid gray;
+	border-radius:8px;
+	box-shadow:5px 5px 5px gray;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-position:top center, bottom center;
+}
+}
+
+
+
+
+textarea {
+    resize: none;
+}
+
+
+
+h1 {font-size: 4em;}
+
+
+
+.etu {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.teksti {
+	background-color: gray;
+	color: white;
+	border-bottom: 1px white;
+	max-height: 0px;
+	overflow: hidden;
+	-webkit-transition:max-height 1s;
+	-moz-transition:max-height 1s;
+	transition:max-height 1s;
+}
+
+footer {
+	width:100%;
+	clear:both;
+}
+
+@media only screen and (min-width: 481px) {
+#container {width: 85%;
+padding-left: 1.2%;
+padding-right: 1.2%;
+margin-left: auto;}
+h1 {font-size: 3em;}
+
+nav li {display:inline-block;
+background-color:#ff9f9c;
+border:gray 1px solid;
+padding:3px;
+text-align:center;
+min-width:6em;
+max-width:7em;
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+transition:width 2s, height 2s, transform 2s;
+   -webkit-box-shadow: 0 8px 6px -6px #999;
+       -moz-box-shadow: 0 8px 6px -6px #999;
+            box-shadow: 0 8px 6px -6px #999;
+}
+
+
+#etusivu {
+	line-height:1.3em;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	padding:3px;
+	
+}
+article {
+	width:100%;
+
+}
+
+body{
+	background-color:#ff9f9c;
+	clear: none; 
+	float: none;
+}
+
+
+
+.sivulla{
+	color:#B6B6B6
+
+
+}
+
+
+nav {margin:auto;
+width:550px;}
+.mobiili {display:none;}
+.tabletti {display:block;}
+h1 {font-size: 3em;}
+}
+
+/*Mobiilinäkymä*/
+
+select {
+   width:10em;
+   -webkit-appearance: none; 
+   -moz-appearance: none; 
+   appearance: none;
+}
+option {
+	background-color:#FFCF59;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+	padding:3px;
+}
+
+
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+
+figure img {
+	max-width:100%;
+	height:auto;
+	border:solid 1px black;
+	border-radius:5px;
+	box-shadow:5px 5px 5px gray;
+	padding:5px;
+}
+figure figcaption {
+	border: 1px dotted blue;
+    text-align: center;
+}
+
+
+/*piilotetaan laatikkonavigointi*/
+@media only screen and (max-width: 481px) {
+.tabletti {
+	display:none;
+
+}
+}
+h1 { 
+	font-size:2.5em;
+	text-align:center;
+	text-shadow:5px 5px 5px gray;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+footer {
+	border-top:3px dotted gray;
+	text-align:center;
+	padding:2px;
+}
+
+a:link {
+	color:#FF0004;
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+	font-size:1.5em;
+}
+
+p {
+	line-height:1.3em;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	padding:3px;
+}
